@@ -3,7 +3,7 @@ package iba.eu.java.education.operatorsClass;
 import junit.framework.TestCase;
 import org.junit.Test;
 
-public class arithmeticDemoTest extends TestCase {
+public class arithmeticDemoTest{
     @Test
     public void arDemoTest(){
         int result = 1 + 2; // result is now 3
@@ -15,7 +15,6 @@ public class arithmeticDemoTest extends TestCase {
 
         int expResult = 3;
         assertEquals(expResult,result);
-        //не работает
     }
 
 }
